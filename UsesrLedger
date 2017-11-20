@@ -19,7 +19,6 @@ contract UserLedger {
     function() {
         revert();
     }
-    
     event NewEmployee(uint indexed empID, bytes32 indexed firstname, bytes32 indexed lastname, bytes32 role, bytes32 title);
     
     function addAdmin(address _newAdmin){
